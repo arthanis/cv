@@ -1,4 +1,40 @@
 .section {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    opacity: .2;
+    z-index: 1;
+  }
+
+  &.section--dark {
+    color: $gray-300;
+
+    &::before {
+      background: url('./assets/img/dark-pattern.png');
+      opacity: .1;
+    }
+  }
+
+  &.section--light {
+    background: $white;
+    color: $gray-900;
+
+    &::before {
+      background: url('./assets/img/light-pattern.png');
+    }
+  }
+
+  .section__content {
+    position: relative;
+    z-index: 2;
+  }
+
   .section__title {
     font-size: 24px;
     font-weight: 700;

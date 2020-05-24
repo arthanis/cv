@@ -1,5 +1,5 @@
 <template>
-  <section class="section section--welcome">
+  <section class="section section--welcome section--light">
     <div class="section__content">
       <h1 class="section__title section__title--large">
         Imre Tóth<span class="underscore">_</span>
