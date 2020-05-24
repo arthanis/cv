@@ -3,6 +3,7 @@
     <welcome />
     <about />
     <experience />
+    <stack />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Welcome from '@/components/Welcome.vue';
 import About from '@/components/About.vue';
 import Experience from '@/components/Experience.vue';
+import Stack from '@/components/Stack.vue';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     about: About,
     welcome: Welcome,
     experience: Experience,
+    stack: Stack,
   },
 };
 </script>
