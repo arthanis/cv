@@ -1,7 +1,7 @@
 <template>
   <section class="section section--welcome section--light">
     <div class="section__content">
-      <h1 class="section__title section__title--large">
+      <h1 class="section__title section__title--large mb-2">
         Imre Tóth<span class="underscore">_</span>
       </h1>
       <h2 class="section__subtitle">&#60;frontend developer /&#62;</h2>

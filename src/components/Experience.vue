@@ -1,7 +1,7 @@
 <template>
   <section class="section section--experience section--light">
     <div class="container section__content">
-      <h2 class="h1 section__title text-center mt-lg-4">Experience</h2>
+      <h2 class="section__title mb-lg-5">Experience</h2>
     </div>
   </section>
 </template>
