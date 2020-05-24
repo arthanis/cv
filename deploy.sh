@@ -3,15 +3,25 @@
 # abort on errors
 set -e
 
+# new orphan branch
+git checkout --orphan gh-pages
+
 # build
 npm run build
 
-# navigate into the build output directory
-cd dist
+# new work tree
+git --work-tree dist add --all
 
-git init
-git add -A
-git commit -m 'deploy'
-git push -f git@github.com:arthanis/cv.git master:gh-pages
+# commit
+git --work-tree dist commit -m 'Deploy'
+
+# push
+git push origin HEAD:gh-pages --force
+
+# checkout master
+git checkout -f master
+
+# remove local gh-pages branch
+git branch -D gh-pages
 
 cd -
