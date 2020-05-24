@@ -1,4 +1,4 @@
-# arthanis.github.io
+# arthanis.github.io/cv
 
 ## Project setup
 ```
