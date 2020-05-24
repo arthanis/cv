@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>arthanis.github.io</h1>
+    <h1>arthanis.github.io/cv</h1>
   </div>
 </template>
 
