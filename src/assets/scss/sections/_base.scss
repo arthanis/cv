@@ -1,0 +1,48 @@
+.section {
+  .section__title {
+    font-size: 24px;
+    font-weight: 700;
+
+    &.section__title--large {
+      font-size: 32px;
+      font-weight: 800;
+    }
+  }
+
+  .section__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .section {
+    .section__title {
+      font-size: 30px;
+
+      &.section__title--large {
+        font-size: 48px;
+      }
+    }
+
+    .section__subtitle {
+      font-size: 22px;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .section {
+    .section__title {
+      font-size: 48px;
+
+      &.section__title--large {
+        font-size: 60px;
+      }
+    }
+
+    .section__subtitle {
+      font-size: 30px;
+    }
+  }
+}

@@ -1,13 +1,20 @@
 <template>
   <div id="app">
-    <h1>arthanis.github.io/<span class="text-danger">cv</span></h1>
+    <welcome />
+    <about />
   </div>
 </template>
 
 <script>
+import Welcome from '@/components/Welcome.vue';
+import About from '@/components/About.vue';
+
 export default {
   name: 'App',
-  components: {},
+  components: {
+    about: About,
+    welcome: Welcome,
+  },
 };
 </script>
 

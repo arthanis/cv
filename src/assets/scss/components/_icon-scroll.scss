@@ -1,0 +1,39 @@
+$icon-scroll-width: 20px;
+$icon-scroll-height: $icon-scroll-width * 2;
+
+.icon-scroll {
+  position: absolute;
+  width: $icon-scroll-width;
+  height: $icon-scroll-height;
+  border-radius: $icon-scroll-width;
+  box-shadow: inset 0 0 0 2px rgba($gray-900, .9);
+
+  &::before {
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    border-radius: 4px;
+    background: $gray-900;
+    content: '';
+    animation: scroll 3s infinite ease;
+  }
+}
+
+@keyframes scroll {
+  20%,
+  100% {
+    transform: translateY($icon-scroll-width * 1.5);
+    opacity: 0;
+  }
+
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+}

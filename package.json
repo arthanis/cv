@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "sh ./deploy.sh"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -23,6 +24,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.14.1",
+    "sass-lint": "^1.13.1",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   }

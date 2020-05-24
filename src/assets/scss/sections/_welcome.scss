@@ -1,0 +1,87 @@
+.section {
+  &.section--welcome {
+    background: $white;
+    color: $gray-900;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: url('./assets/img/light-pattern.png');
+      content: '';
+      opacity: .2;
+    }
+
+    .section__content {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      z-index: 2;
+    }
+
+    .section__title {
+      letter-spacing: -.02em;
+    }
+
+    .section__list {
+      display: flex;
+      position: absolute;
+      top: $grid-gutter-width / 2;
+      right: $grid-gutter-width / 2;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .section__list-item {
+      & + .section__list-item {
+        margin-left: 10px;
+      }
+    }
+
+    .section__list-link {
+      color: $gray-900;
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .section__scroll {
+      top: auto;
+      bottom: $grid-gutter-width / 2;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .section {
+    &.section--welcome {
+      .section__list {
+        top: $grid-gutter-width;
+        right: $grid-gutter-width;
+      }
+
+      .section__list-item {
+        & + .section__list-item {
+          margin-left: 10px;
+        }
+      }
+
+      .section__list-link {
+        display: flex;
+        padding: 5px;
+        font-size: 22px;
+        text-decoration: none;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+}
