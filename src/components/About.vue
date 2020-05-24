@@ -15,12 +15,14 @@
           <p><strong>Used technologies:</strong> HTML5, CSS3 / SCSS, Bootstrap, JavaScript (ES6),
             Vue.js, webpack, Erlang, gulp, npm / yarn, SVG, XML, jQuery, Git.</p>
 
-          <p>Looking for javascript developer opportunities and I am opened to work with node.js.</p>
+          <p>Looking for javascript developer opportunities and I am opened to work with
+            node.js.</p>
 
           <p class="mt-4">
-            <a href="https://github.com/arthanis/cv/blob/master/src/assets/imre_toth_cv_public_2020.pdf"
-               target="_blank"
-               class="btn btn-outline-light">
+            <a
+              href="//github.com/arthanis/cv/blob/master/src/assets/imre_toth_cv_public_2020.pdf"
+              target="_blank"
+              class="btn btn-outline-light">
               Download CV
             </a>
           </p>
