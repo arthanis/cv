@@ -19,3 +19,6 @@ rules:
 
   class-name-format:
     - 0
+
+  nesting-depth:
+    - 0
