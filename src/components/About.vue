@@ -9,16 +9,16 @@
                class="section__image rounded-circle">
         </div>
         <div class="col-md-8 col-lg-9 pt-4 pt-md-0">
-          <p>Senior frontend developer with a little backend developing experience from Budapest.
+          <p>Senior frontend developer with backend developing experience from Budapest.
             <br>Currently I am working as a contractor for multiple companies.</p>
 
           <p><strong>Used technologies:</strong> HTML5, CSS3 / SCSS, Bootstrap, JavaScript (ES6),
-            Vue.js, Erlang, webpack, gulp, npm / yarn, SVG, XML, jQuery, Git.</p>
+            Vue.js, webpack, Erlang, gulp, npm / yarn, SVG, XML, jQuery, Git.</p>
 
-          <p>Looking for javascript developer opportunities and open to work with node.js.</p>
+          <p>Looking for javascript developer opportunities and I am opened to work with node.js.</p>
 
           <p class="mt-4">
-            <a href="//github.com/arthanis/cv/blob/master/src/assets/imre_toth_cv_public_2020.pdf"
+            <a href="https://github.com/arthanis/cv/blob/master/src/assets/imre_toth_cv_public_2020.pdf"
                target="_blank"
                class="btn btn-outline-light">
               Download CV
