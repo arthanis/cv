@@ -24,4 +24,4 @@ git checkout -f master
 # remove local gh-pages branch
 git branch -D gh-pages
 
-cd -
+cd ~
