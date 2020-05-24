@@ -1,5 +1,6 @@
 .section {
   &.section--welcome {
+    border-top: 4px solid $primary;
     background: $white;
     color: $gray-900;
 
@@ -26,6 +27,18 @@
 
     .section__title {
       letter-spacing: -.02em;
+
+      .underscore {
+        color: $primary;
+        font-size: 50%;
+        animation: underscore 1s infinite ease-in-out;
+
+        @keyframes underscore {
+          0% { opacity: 0; }
+          50% { opacity: 1; }
+          100% { opacity: 0; }
+        }
+      }
     }
 
     .section__list {

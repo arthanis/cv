@@ -1,8 +1,10 @@
 <template>
   <section class="section section--welcome">
     <div class="section__content">
-      <h1 class="section__title section__title--large">Imre Tóth.</h1>
-      <h2 class="section__subtitle">Frontend developer.</h2>
+      <h1 class="section__title section__title--large">
+        Imre Tóth<span class="underscore">_</span>
+      </h1>
+      <h2 class="section__subtitle">&#60;frontend developer /&#62;</h2>
 
       <ul class="section__list">
         <li class="section__list-item"
