@@ -18,7 +18,7 @@
           <p>Looking for javascript developer opportunities and open to work with node.js.</p>
 
           <p class="mt-4">
-            <a href="@/assets/imre_toth_cv_public_2020.pdf"
+            <a href="//github.com/arthanis/cv/blob/master/src/assets/imre_toth_cv_public_2020.pdf"
                target="_blank"
                class="btn btn-outline-light">
               Download CV
