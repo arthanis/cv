@@ -24,8 +24,8 @@ export default {
   data() {
     return {
       stackItems: ['html5', 'css3-alt', 'sass', 'js', 'vuejs', 'bootstrap', 'yarn', 'npm', 'erlang',
-        'gulp', 'node-js', 'git', 'github', 'docker', 'magento', 'wordpress', 'php',
-        'sketch', 'digital-ocean', 'adobe', 'apple', 'ubuntu'],
+        'gulp', 'git', 'github', 'docker', 'magento', 'wordpress', 'php', 'sketch', 'digital-ocean',
+        'adobe', 'apple', 'ubuntu'],
     };
   },
 };
