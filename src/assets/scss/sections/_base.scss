@@ -17,6 +17,8 @@
 
 @include media-breakpoint-up(md) {
   .section {
+    padding: $grid-gutter-width 0;
+
     .section__title {
       font-size: 30px;
 

@@ -41,6 +41,13 @@
       }
     }
 
+    .section__subtitle {
+      padding: 4px;
+      background: $gray-900;
+      color: $gray-100;
+      font-weight: 500;
+    }
+
     .section__list {
       display: flex;
       position: absolute;
@@ -74,8 +81,13 @@
 @include media-breakpoint-up(md) {
   .section {
     &.section--welcome {
+      .section__content {
+        height: calc(100vh - #{$grid-gutter-width * 2});
+        min-height: 0;
+      }
+
       .section__list {
-        top: $grid-gutter-width;
+        top: 0;
         right: $grid-gutter-width;
       }
 

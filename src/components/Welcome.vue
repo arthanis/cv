@@ -5,6 +5,7 @@
         Imre Tóth<span class="underscore">_</span>
       </h1>
       <h2 class="section__subtitle">&#60;frontend developer /&#62;</h2>
+      <h3 class="h5 mt-2">Budapest, Hungary</h3>
 
       <ul class="section__list">
         <li class="section__list-item"

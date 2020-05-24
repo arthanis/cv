@@ -1,0 +1,26 @@
+.section {
+  &.section--about {
+    position: relative;
+    color: $gray-300;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: url('./assets/img/dark-pattern.png');
+      content: '';
+      opacity: .1;
+    }
+
+    .section__content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .section__image {
+      width: 200px;
+    }
+  }
+}
