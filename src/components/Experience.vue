@@ -79,7 +79,7 @@ export default {
       },
       education: {
         items: [{
-          school: 'Gabor Denes College',
+          school: 'Dennis Gabor College',
           details: 'IT Engineer, Information Technology',
           date: '2010 - 2017',
           description: 'Degree thesis in currently progress.',
