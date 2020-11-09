@@ -41,8 +41,14 @@ export default {
       experience: {
         items: [{
           role: 'Frontend developer',
-          employer: 'Contract',
-          date: '2018.09 - ',
+          employer: 'Risskov Autoferien',
+          date: '2020.10 - ',
+          tasks: '',
+          stack: '',
+        }, {
+          role: 'Lead frontend developer',
+          employer: 'OANDER Media (Contract)',
+          date: '2018.09 - 2020.09',
           tasks: 'Vue.js based SPA, middleware and magento development (theme, module - vue.js) and static frontend (part time)',
           stack: 'Vue.js, HTML5, CSS, Scss, JS (ES6+), Erlang, Mongodb, Bootstrap, Webpack, Websocket, Rest, yarn, npm, docker, git, kanban, gulp, nunjucks',
         }, {
