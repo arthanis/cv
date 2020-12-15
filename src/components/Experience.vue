@@ -41,10 +41,16 @@ export default {
       experience: {
         items: [{
           role: 'Frontend developer',
-          employer: 'Risskov Autoferien',
-          date: '2020.10 - ',
+          employer: 'JobCTRL',
+          date: '2020.12 - ',
           tasks: '',
-          stack: '',
+          stack: '.NET env, HTML5, CSS/SCSS, Bootstrap, React, jQuery',
+        }, {
+          role: 'Frontend developer',
+          employer: 'Risskov Autoferien',
+          date: '2020.10 - 2020.11',
+          tasks: '',
+          stack: 'HTML5, CSS3, JS (vanilla), Rest API',
         }, {
           role: 'Lead frontend developer',
           employer: 'OANDER Media (Contract)',
