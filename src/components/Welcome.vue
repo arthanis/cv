@@ -41,10 +41,10 @@ export default {
         url: 'https://dev.to/arthanis',
       }, {
         class: 'fab fa-stack-overflow',
-        url: 'https://stackoverflow.com/users/7074144/arthanis'
+        url: 'https://stackoverflow.com/users/7074144/arthanis',
       }, {
         class: 'fab fa-twitter',
-        url: 'https://twitter.com/arthanis88'
+        url: 'https://twitter.com/arthanis88',
       }],
     };
   },
