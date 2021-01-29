@@ -44,7 +44,7 @@ export default {
           employer: 'JobCTRL',
           date: '2020.12 - ',
           tasks: '',
-          stack: '.NET env, HTML5, CSS/SCSS, Bootstrap, React, jQuery',
+          stack: '.NET env, HTML5, CSS/SCSS, Bootstrap, React, jQuery, gulp',
         }, {
           role: 'Frontend developer',
           employer: 'Risskov Autoferien',

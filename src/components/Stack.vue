@@ -7,10 +7,13 @@
         <ul class="stack__list">
           <li class="stack__item"
               v-for="(item, index) in stackItems"
-              :key="index">
+              :key="index"
+              :data-title="item"
+              >
             <i class="fab"
                :class="`fa-${item}`"
-               :title="item"></i>
+               :title="item"
+            ></i>
           </li>
         </ul>
       </div>
@@ -23,9 +26,28 @@ export default {
   name: 'Stack',
   data() {
     return {
-      stackItems: ['html5', 'css3-alt', 'sass', 'js', 'vuejs', 'bootstrap', 'yarn', 'npm', 'erlang',
-        'gulp', 'git', 'github', 'docker', 'magento', 'wordpress', 'php', 'sketch', 'digital-ocean',
-        'adobe', 'apple', 'ubuntu'],
+      stackItems: [
+        'html5',
+        'css3',
+        'sass',
+        'js',
+        'vuejs',
+        'react',
+        'bootstrap',
+        'yarn',
+        'npm',
+        'gulp',
+        'git',
+        'github',
+        'docker',
+        'sketch',
+        'digital-ocean',
+        'adobe',
+        'apple',
+        'ubuntu',
+        'windows',
+        'dotnet',
+      ],
     };
   },
 };

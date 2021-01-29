@@ -4,7 +4,9 @@
       <h1 class="section__title section__title--large mb-2">
         Imre Tóth<span class="underscore">_</span>
       </h1>
+
       <h2 class="section__subtitle">&#60;frontend developer /&#62;</h2>
+
       <h3 class="h5 mt-2">Budapest, Hungary</h3>
 
       <ul class="section__list">
@@ -28,13 +30,22 @@ export default {
   name: 'Welcome',
   data() {
     return {
-      icons: [
-        { class: 'fab fa-github', url: 'https://github.com/arthanis' },
-        { class: 'fab fa-linkedin', url: 'https://www.linkedin.com/in/imre-toth-00510b30/' },
-        { class: 'fab fa-dev', url: 'https://dev.to/arthanis' },
-        { class: 'fab fa-stack-overflow', url: 'https://stackoverflow.com/users/7074144/arthanis' },
-        { class: 'fab fa-twitter', url: 'https://twitter.com/arthanis88' },
-      ],
+      icons: [{
+        class: 'fab fa-github',
+        url: 'https://github.com/arthanis',
+      }, {
+        class: 'fab fa-linkedin',
+        url: 'https://www.linkedin.com/in/imre-toth-00510b30/',
+      }, {
+        class: 'fab fa-dev',
+        url: 'https://dev.to/arthanis',
+      }, {
+        class: 'fab fa-stack-overflow',
+        url: 'https://stackoverflow.com/users/7074144/arthanis'
+      }, {
+        class: 'fab fa-twitter',
+        url: 'https://twitter.com/arthanis88'
+      }],
     };
   },
 };
