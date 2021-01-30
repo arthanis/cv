@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # abort on errors
-set -e
+# set -e
 
 # new orphan branch
 # git checkout --orphan gh-pages
@@ -34,4 +34,4 @@ git push -f git@github.com:arthanis/cv.git master:gh-pages
 # remove local gh-pages branch
 # git branch -D gh-pages
 
-cd -
+# cd -
