@@ -1,8 +1,9 @@
-name: CI
+name: Build and Deploy
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
 
   workflow_dispatch:
 
