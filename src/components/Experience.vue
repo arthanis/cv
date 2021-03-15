@@ -43,8 +43,8 @@ export default {
           role: 'Frontend developer',
           employer: 'JC360',
           date: '2020.12 - ',
-          tasks: '',
-          stack: '.NET env, HTML5, CSS/SCSS, Bootstrap, React, jQuery, gulp',
+          tasks: 'Product development',
+          stack: 'HTML5, CSS/SCSS, Bootstrap, React, jQuery, gulp, .NET env',
         }, {
           role: 'Frontend developer',
           employer: 'Risskov Autoferien',
