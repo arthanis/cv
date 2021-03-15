@@ -41,7 +41,7 @@ export default {
       experience: {
         items: [{
           role: 'Frontend developer',
-          employer: 'JobCTRL',
+          employer: 'JC360',
           date: '2020.12 - ',
           tasks: '',
           stack: '.NET env, HTML5, CSS/SCSS, Bootstrap, React, jQuery, gulp',
