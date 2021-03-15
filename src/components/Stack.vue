@@ -46,7 +46,6 @@ export default {
         'apple',
         'ubuntu',
         'windows',
-        'dotnet',
       ],
     };
   },
