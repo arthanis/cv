@@ -15,7 +15,7 @@
           <p><strong>Used technologies:</strong> HTML5, CSS3 / SCSS, Bootstrap, JavaScript (ES6),
             Vue.js, webpack, Erlang, gulp, npm / yarn, SVG, XML, jQuery, Git.</p>
 
-          <p>Looking for javascript developer opportunities and I am opened to work with
+          <p class="d-none">Looking for javascript developer opportunities and I am opened to work with
             node.js.</p>
         </div>
       </div>
