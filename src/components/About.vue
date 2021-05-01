@@ -16,8 +16,9 @@
             Bootstrap, webpack, gulp, npm / yarn, SVG, XML, Git.
           </p>
 
-          <p class="d-none">Looking for javascript developer opportunities and I am opened to work with
-            node.js.</p>
+          <p class="d-none">
+            Looking for javascript developer opportunities and I am opened to work with node.js.
+          </p>
         </div>
       </div>
     </div>
