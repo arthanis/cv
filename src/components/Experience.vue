@@ -98,7 +98,7 @@ export default {
         }, {
           school: 'Szamalk Secondary School',
           details: 'Multimedia developer, Technical Certificate of Multimedia Developer',
-          date: '2010 - 2017',
+          date: '2007 - 2009',
         }],
       },
     };
