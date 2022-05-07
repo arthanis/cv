@@ -44,7 +44,7 @@ export default {
           employer: 'JC360',
           date: '2020.12 - ',
           tasks: 'Product development',
-          stack: 'HTML5, CSS/SCSS, Bootstrap, React, jQuery, gulp, .NET env',
+          stack: 'JS (ES6+), React (17+), Vue.js, HTML5, CSS3, SCSS, Bootstrap, SPA, REST API, Webpack',
         }, {
           role: 'Frontend developer',
           employer: 'Risskov Autoferien',
