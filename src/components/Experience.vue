@@ -50,7 +50,7 @@ export default {
           employer: 'Risskov Autoferien',
           date: '2020.10 - 2020.11',
           tasks: '',
-          stack: 'HTML5, CSS3, JS (vanilla), Rest API',
+          stack: 'JS (ES6+), React (17+), Vue.js, HTML5, CSS3, SCSS, Bootstrap, SPA, REST API, Webpack',
         }, {
           role: 'Lead frontend developer',
           employer: 'OANDER Media (Contract)',
