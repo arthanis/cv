@@ -94,7 +94,7 @@ export default {
           school: 'Dennis Gabor College',
           details: 'IT Engineer, Information Technology',
           date: '2010 - 2017',
-          description: 'Degree thesis in currently progress.',
+          description: 'Final exam passed, last step is language exam',
         }, {
           school: 'Szamalk Secondary School',
           details: 'Multimedia developer, Technical Certificate of Multimedia Developer',
