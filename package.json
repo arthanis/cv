@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "serve": "cross-env NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
     "lint": "vue-cli-service lint",
     "deploy": "sh ./deploy.sh"
   },
@@ -20,6 +20,7 @@
     "@vue/cli-service": "~4.3.0",
     "@vue/eslint-config-airbnb": "^5.0.2",
     "babel-eslint": "^10.1.0",
+    "cross-env": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
