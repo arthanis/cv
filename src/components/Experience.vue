@@ -24,7 +24,7 @@
           <li class="experience__item item" v-for="(item, index) in education.items" :key="index">
             <h4 class="item__title">{{ item.school }}</h4>
             <p class="item__subtitle">{{ item.details }}</p>
-            <p class="item__date">{{ item.date }}</p>
+            <p class="item__date" v-if="item.date">{{ item.date }}</p>
             <p class="item__details" v-if="item.description">{{ item.description }}</p>
           </li>
         </ul>
@@ -40,9 +40,21 @@ export default {
     return {
       experience: {
         items: [{
+          role: 'Senior software developer',
+          employer: 'NN',
+          date: '2024.09 - ',
+          tasks: 'Working on a greenfield financial project, responsible for building and maintaining a scalable single-page application.',
+          stack: 'React, TypeScript, Redux Toolkit (RTK), Tailwind CSS, Shadcn UI, HTML5/CSS3, SPA, REST API, Vite, Vitest',
+        }, {
+          role: 'Frontend developer',
+          employer: 'Ipon',
+          date: '2024.04 - 2024.07',
+          tasks: 'Frontend development',
+          stack: 'JS (ES6+), React (17+), Vue.js, HTML5, CSS3, SCSS, Bootstrap, SPA, REST API, Webpack',
+        }, {
           role: 'Frontend developer',
           employer: 'JC360',
-          date: '2020.12 - ',
+          date: '2020.12 - 2024.03',
           tasks: 'Product development',
           stack: 'JS (ES6+), React (17+), Vue.js, HTML5, CSS3, SCSS, Bootstrap, SPA, REST API, Webpack',
         }, {
@@ -93,12 +105,13 @@ export default {
         items: [{
           school: 'Dennis Gabor College',
           details: 'IT Engineer, Information Technology',
-          date: '2010 - 2017',
-          description: 'Degree thesis in currently progress.',
+          description: '',
+          date: '',
         }, {
           school: 'Szamalk Secondary School',
           details: 'Multimedia developer, Technical Certificate of Multimedia Developer',
-          date: '2007 - 2009',
+          description: '',
+          date: '',
         }],
       },
     };

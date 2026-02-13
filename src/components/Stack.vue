@@ -1,7 +1,7 @@
 <template>
   <section class="section section--stack section--dark">
     <div class="container section__content">
-      <h2 class="section__title mb-lg-5">Stack</h2>
+      <h2 class="section__title mb-lg-5">Current stack</h2>
 
       <div class="stack mt-4">
         <ul class="stack__list">
@@ -27,22 +27,21 @@ export default {
   data() {
     return {
       stackItems: [
+        'typescript',
+        'js',
+        'react',
+        'vuejs',
         'html5',
         'css3',
-        'sass',
-        'js',
-        'vuejs',
-        'react',
+        'tailwind-css',
         'bootstrap',
         'yarn',
         'npm',
-        'gulp',
         'git',
+        'sass',
         'github',
         'docker',
-        'sketch',
         'digital-ocean',
-        'adobe',
         'apple',
         'ubuntu',
         'windows',
